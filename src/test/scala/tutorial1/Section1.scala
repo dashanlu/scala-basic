@@ -10,6 +10,8 @@ class Section1 extends AnyFlatSpec with Matchers {
   "val" should "be initialized once and isn't allowed to change" in {
     val one = 1L
 
+    val seq = Seq(1,2,3,4,5)
+    val list = List(1,2,3)
 //    one = 2 => final int i =1
 //    var mutable = 1l
 //    mutable="gdgd"
